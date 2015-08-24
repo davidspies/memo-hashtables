@@ -1,0 +1,19 @@
+name: memo-hashtables
+version: 0.0.1.0
+synopsis: Memoization based on hashtables
+-- description:
+license: BSD3
+license-file: LICENSE
+author: Shao Cheng
+maintainer: astrohavoc@gmail.com
+-- copyright:
+category: Data
+build-type: Simple 
+cabal-version: >=1.22
+
+library
+  exposed-modules: Data.HashTable.Memo
+  build-depends: base >=4.8 && <4.9, hashable, hashtables
+  hs-source-dirs: src
+  default-language: Haskell2010
+  ghc-options: -fno-cse -fno-full-laziness
