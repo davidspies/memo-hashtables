@@ -13,7 +13,7 @@ cabal-version: >=1.22
 
 library
   exposed-modules: Data.HashTable.Memo
-  build-depends: base >=4.8 && <4.9, hashable, hashtables
+  build-depends: base, hashable, hashtables
   hs-source-dirs: src
   default-language: Haskell2010
   ghc-options: -fno-cse -fno-full-laziness
